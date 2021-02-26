@@ -9,7 +9,7 @@ import Resume from './Resume'
 export default function Home() {
     return(
         <div className="div-hme">
-            <div className="hme-div" onClick={() => window.scrollTo(0,0)}><FontAwesomeIcon icon={faAngleUp} /></div>
+            <div className="hme-div" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}><FontAwesomeIcon icon={faAngleUp} /></div>
             <Introduction />
             <PortfolioProjects />
             <Resume />

@@ -5,9 +5,9 @@ export default function Introduction() {
         <div className="div-intro">
             <div className="intro-div">
                 <div className="dv-intro-div">
-                    <div className="d-intro" onClick={() => window.scrollTo(0,520)}>Portfolio</div>
-                    <div className="d-intro2" onClick={() => window.scrollTo(0,1270)}>Resume</div>
-                    <div className="d-intro3" onClick={() => window.scrollTo(0,1870)}>Connect</div>
+                    <div className="d-intro" onClick={() => window.scrollTo({top: 520, behavior: 'smooth'})}>Portfolio</div>
+                    <div className="d-intro2" onClick={() => window.scrollTo({top: 1270, behavior: 'smooth'})}>Resume</div>
+                    <div className="d-intro3" onClick={() => window.scrollTo({top: 1870, behavior: 'smooth'})}>Connect</div>
                 </div>
                 <div className="dv-intro">
                     <h1>Hi</h1>
@@ -18,7 +18,7 @@ export default function Introduction() {
                         immersive and interactive projects.
                     </h1>
                 </div>
-                <span onClick={() => window.scrollTo(0,1870)}>Let Connect!</span>
+                <span onClick={() => window.scrollTo({top: 1870, behavior: 'smooth'})}>Let Connect!</span>
             </div>
         </div>
     )
