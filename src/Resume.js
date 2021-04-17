@@ -13,7 +13,7 @@ export default function Resume() {
                 <div className="res-div2-h1"><h1>Resume</h1></div>
                 <div className="dv2-res-div">
                     <img src={resumescreenshot1} alt="screenshot of resume" />
-                    <div><Link to="/files/Kareem_Software_Engineer_resume(portfolio).doc" target="_blank" style={{ color: 'inherit', textDecoration: 'none' }} download><FontAwesomeIcon icon={faFile} /></Link></div>
+                    <div><Link to="/files/Kareem_Software_Engineer_resume.doc" target="_blank" style={{ color: 'inherit', textDecoration: 'none' }} download><FontAwesomeIcon icon={faFile} /></Link></div>
                 </div>
                 <div className="dv2-res-div2">
                     <h1>
