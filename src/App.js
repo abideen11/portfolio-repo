@@ -5,6 +5,8 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './Home';
 import Footer from './Footer';
 
+import ReactGA from 'react-ga';
+
 // function App() {
 //   return (
 //     <div className="App">
@@ -25,6 +27,9 @@ import Footer from './Footer';
 //     </div>
 //   );
 // }
+
+const TRACKING_ID = "274101519";
+ReactGA.initialize(TRACKING_ID);
 
 function App() {
   return(
