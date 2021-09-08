@@ -6,6 +6,13 @@ import Introduction from './Introduction'
 import PortfolioProjects from './PortfolioProjects'
 import Resume from './Resume'
 
+import ReactGA from 'react-ga'
+
+ReactGA.event({
+    category: 'User',
+    action: 'Browsing website'
+})
+
 export default function Home() {
     return(
         <div className="div-hme">

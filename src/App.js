@@ -28,7 +28,7 @@ import ReactGA from 'react-ga';
 //   );
 // }
 
-const TRACKING_ID = "274101519";
+const TRACKING_ID = "G-KKFWDF1PY1";
 ReactGA.initialize(TRACKING_ID);
 
 function App() {
