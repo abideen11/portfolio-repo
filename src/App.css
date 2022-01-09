@@ -234,7 +234,9 @@
   margin-bottom: 20px;
   margin-left: auto;
 }
-.ftr-dv, .ftr-dv2, .ftr-dv3 {
+.ftr-dv,
+.ftr-dv2,
+.ftr-dv3 {
   display: flex;
   justify-content: center;
   align-items: center;
