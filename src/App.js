@@ -1,8 +1,8 @@
 import React from 'react'
 import './App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Home from './Home';
-import Footer from './Footer';
+import Home from './components/Home';
+import Footer from './components/Footer';
 
 import ReactGA from 'react-ga';
 

@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import resumeJobDetailScreenshot from './ScreenshotOfResumeJobDetails-2021-09-07.PNG'
+import resumeJobDetailScreenshot from '../images/ScreenshotOfResumeJobDetails-2021-09-07.PNG'
 
 export default function Resume() {
     return(

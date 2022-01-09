@@ -2,8 +2,8 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 
-import craftchampsimg1 from './Screenshot-2021-02-02-160923.png'
-import flathopperimg1 from './Screenshot-2021-02-02-171818.png'
+import craftchampsimg1 from '../images/Screenshot-2021-02-02-160923.png'
+import flathopperimg1 from '../images/Screenshot-2021-02-02-171818.png'
 
 export default function PortfolioProjects() {
     return(
