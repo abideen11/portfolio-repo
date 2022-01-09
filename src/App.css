@@ -1,5 +1,6 @@
 /* Home  */
 .hme-div {
+  z-index: 100;
   position: fixed;
   background-color: #4ddbff;
   color: white;
@@ -18,12 +19,12 @@
 
 /* Introduction  */
 .div-intro {
-  display: flex;
-  flex-direction: column;
   font-family: Helvetica, sans-serif;
   background-color: #4ddbff;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
-.dv-intro-div {
+.div-intro-div {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -31,14 +32,25 @@
   margin-top: 20px;
   cursor: pointer;
 }
+.div-intro h1 {
+  display: flex;
+  flex-wrap: wrap;
+}
 .dv-intro {
   display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
   color: white;
-  width: 550px;
+  margin: 120px 20px 20px 100px;
+}
+.dv-intro-div {
+  width: 525px;
   height: 300px;
-  margin: 120px 0 0 140px;
+  align-items: flex-start;
+}
+.dv-intro-div2 {
+  width: 250px;
+  height: 300px;
 }
 .dv-intro-cnt {
   display: flex;
@@ -46,7 +58,7 @@
   width: 150px;
   height: 40px;
   border-radius: 40px;
-  margin: 0 0 20px 140px;
+  margin: 0 0 20px 100px;
   color: #4ddbff;
   display: flex;
   justify-content: center;
@@ -195,8 +207,8 @@
   font-size: 15px;
   left: 0;
   top: 30px;
-  width: 400px;
-  height: 270px;
+  width: 450%;
+  height: 1000%;
   resize: both;
 }
 .ctc-inp4 {
