@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link } from "react-router-dom";
 
-import resumeJobDetailScreenshot from "../images/ScreenshotOfResumeJobDetails-2021-09-07.PNG";
+import resumeJobsScreenshot from "../images/screenshot_of_resume_jobs_description.png";
 
 const Resume = () => {
   return (
@@ -17,8 +17,10 @@ const Resume = () => {
           </h1>
         </div>
         <div className="div-resdiv2">
-          <img src={resumeJobDetailScreenshot} alt="screenshot of resume" />
-          <div>
+          <div className="resume-screenshot">
+            <img src={resumeJobsScreenshot} alt="screenshot of resume" />
+          </div>
+          <div className="file-icon-resume">
             <Link
               to="/files/Kareem_Software_Engineer_resume.pdf"
               target="_blank"
