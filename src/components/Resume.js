@@ -23,7 +23,7 @@ const Resume = () => {
           </div>
           <div className="resume-file">
             <Link
-              to="/files/Kareem_Software_Engineer_resume.pdf"
+              to="/files/Kareem_Software_Engineer_Resume.pdf"
               target="_blank"
               style={{ color: "inherit", textDecoration: "none" }}
               download
