@@ -3,8 +3,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import "../styles/PortfolioProjects.css";
 
-import craftchampsimg1 from "../images/Screenshot-2021-02-02-160923.png";
-import flathopperimg1 from "../images/Screenshot-2021-02-02-171818.png";
+import flathopperHomePage from "../images/screenshot_flathopper_home_page.png";
+import craftchampHomePage from "../images/screenshot_craftchamp_home_page.png";
 
 const PortfolioProjects = () => {
   return (
@@ -13,7 +13,10 @@ const PortfolioProjects = () => {
       <div className="projects-div-inner">
         <div className="project-part">
           <div className="project-image">
-            <img src={flathopperimg1} alt="screenshot of Flathopper website" />
+            <img
+              src={flathopperHomePage}
+              alt="screenshot of Flathopper website"
+            />
           </div>
           <p>Website that let users book short rental stays.</p>
           <br />
@@ -39,7 +42,10 @@ const PortfolioProjects = () => {
 
         <div className="project-part">
           <div className="project-image">
-            <img src={craftchampsimg1} alt="screenshot of CraftChamp website" />
+            <img
+              src={craftchampHomePage}
+              alt="screenshot of CraftChamp website"
+            />
           </div>
           <p>
             Website for guides on repairs, installation, carpentry and other
