@@ -1,42 +1,44 @@
 import React from "react";
+import "../styles/Introduction.css";
 
 const Introduction = () => {
   return (
-    <div className="div-intro">
-      <div className="div-intro-div">
+    <div className="intro-div">
+      <div className="intro-div-inner">
         <div
-          className="d-intro"
+          className="intro-portfolio"
           onClick={() =>
             document
-              .querySelector("#to-prtfl")
+              .querySelector("#to-portfolio")
               .scrollIntoView({ behavior: "smooth" })
           }
         >
           Portfolio
         </div>
         <div
-          className="d-intro2"
+          className="intro-resume"
           onClick={() =>
             document
-              .querySelector("#to-rsme")
+              .querySelector("#to-resume")
               .scrollIntoView({ behavior: "smooth" })
           }
         >
           Resume
         </div>
         <div
-          className="d-intro3"
+          className="intro-contact"
           onClick={() =>
             document
-              .querySelector("#to-cnt")
+              .querySelector("#to-contact")
               .scrollIntoView({ behavior: "smooth" })
           }
         >
           Connect
         </div>
       </div>
-      <div className="dv-intro">
-        <div className="dv-intro-div">
+
+      <div className="intro-summary">
+        <div className="intro-summary-inner">
           <h1>Hi</h1>
           <h1>
             My name is Abideen (Kos) Kareem and I'm a Software Engineer that
@@ -44,10 +46,11 @@ const Introduction = () => {
             and interactive projects.
           </h1>
         </div>
-        <div className="dv-intro-div2"></div>
+        <div className="intro-buffer"></div>
       </div>
+
       <div
-        className="dv-intro-cnt"
+        className="intro-connect"
         onClick={() =>
           document
             .querySelector("#to-cnt")

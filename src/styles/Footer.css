@@ -1,0 +1,35 @@
+.footer-div {
+  background-color: black;
+  width: auto;
+  height: 100px;
+  padding: 20px;
+}
+
+.footer-div-inner {
+  display: flex;
+  width: 40%;
+  height: 40px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-left: auto;
+}
+
+.footer-linkedin,
+.footer-github,
+.footer-medium {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4ddbff;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.footer-credit {
+  display: flex;
+  justify-content: center;
+  color: white;
+}

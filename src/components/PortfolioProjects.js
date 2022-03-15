@@ -1,23 +1,24 @@
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import "../styles/PortfolioProjects.css";
 
 import craftchampsimg1 from "../images/Screenshot-2021-02-02-160923.png";
 import flathopperimg1 from "../images/Screenshot-2021-02-02-171818.png";
 
 const PortfolioProjects = () => {
   return (
-    <div id="to-prtfl" className="div-prj">
-      <h1 className="div-prjh1">Portfolio</h1>
-      <div className="prj-div">
-        <div className="dv-prj-div">
-          <div className="d-prjdiv">
+    <div id="to-portfolio" className="projects-div">
+      <h1 className="projects-title">Portfolio</h1>
+      <div className="projects-div-inner">
+        <div className="project-part">
+          <div className="project-image">
             <img src={flathopperimg1} alt="screenshot of Flathopper website" />
           </div>
           <p>Website that let users book short rental stays.</p>
           <br />
           <div
-            className="d-prjdiv2"
+            className="project-repository"
             onClick={() => {
               window.open("https://github.com/abideen11/lodgeworkspace2");
             }}
@@ -27,7 +28,7 @@ const PortfolioProjects = () => {
           <br />
           <br />
           <div
-            className="d-prjdiv3"
+            className="project-link"
             onClick={() => {
               window.open("https://flathopperreactapp.herokuapp.com/");
             }}
@@ -35,8 +36,9 @@ const PortfolioProjects = () => {
             Visit Website
           </div>
         </div>
-        <div className="dv-prj-div">
-          <div className="d-prjdiv">
+
+        <div className="project-part">
+          <div className="project-image">
             <img src={craftchampsimg1} alt="screenshot of CraftChamp website" />
           </div>
           <p>
@@ -44,7 +46,7 @@ const PortfolioProjects = () => {
             projects.
           </p>
           <div
-            className="d-prjdiv2"
+            className="project-repository"
             onClick={() => {
               window.open("https://github.com/abideen11/craftchamp-project");
             }}
@@ -54,7 +56,7 @@ const PortfolioProjects = () => {
           <br />
           <br />
           <div
-            className="d-prjdiv3"
+            className="project-link"
             onClick={() => {
               window.open("https://craftchampreactapp1.herokuapp.com/");
             }}

@@ -5,13 +5,14 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import "../styles/Footer.css";
 
 const Footer = () => {
   return (
-    <div className="div-ftr">
-      <div className="ftr-div">
+    <div className="footer-div">
+      <div className="footer-div-inner">
         <div
-          className="ftr-dv"
+          className="footer-linkedin"
           title="LinkedIn"
           onClick={() => {
             window.open("https://www.linkedin.com/in/abideenkareem/");
@@ -20,7 +21,7 @@ const Footer = () => {
           <FontAwesomeIcon icon={faLinkedinIn} />
         </div>
         <div
-          className="ftr-dv2"
+          className="footer-github"
           title="GitHub"
           onClick={() => {
             window.open("https://github.com/abideen11");
@@ -29,7 +30,7 @@ const Footer = () => {
           <FontAwesomeIcon icon={faGithub} />
         </div>
         <div
-          className="ftr-dv3"
+          className="footer-medium"
           title="Medium"
           onClick={() => {
             window.open("https://medium.com/@abideenkareem");
@@ -38,7 +39,7 @@ const Footer = () => {
           <FontAwesomeIcon icon={faMediumM} />
         </div>
       </div>
-      <div className="ftr-div2">
+      <div className="footer-credit">
         <p>Designed & Developed by Abideen Kareem</p>
       </div>
     </div>

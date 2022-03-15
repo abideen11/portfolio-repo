@@ -1,0 +1,39 @@
+.resume-div {
+  background-color: #4ddbff;
+  color: white;
+  font-family: Helvetica, sans-serif;
+}
+
+.resume-div h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.resume-div-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.resume-prompt {
+  width: 550px;
+  height: 300px;
+  display: flex;
+  padding: 30px;
+}
+
+.resume-screenshot-file {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 40px;
+}
+
+.resume-screenshot {
+  width: 80%;
+  height: 90%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}

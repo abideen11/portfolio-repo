@@ -1,0 +1,69 @@
+.contact-div {
+  height: 580px;
+  font-family: Helvetica, sans-serif;
+  padding: 20px;
+}
+
+.contact-div h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-div-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  height: 450px;
+}
+
+.contact-form {
+  position: relative;
+}
+
+.contact-label-name {
+  position: absolute;
+  font-size: 15px;
+}
+
+.contact-input-name {
+  position: absolute;
+  font-size: 15px;
+  top: 30px;
+  left: 0;
+}
+
+.contact-label-email {
+  position: absolute;
+  font-size: 15px;
+  top: 70px;
+}
+
+.contact-input-email {
+  position: absolute;
+  font-size: 15px;
+  left: 0;
+  top: 30px;
+}
+
+.contact-label-message {
+  position: absolute;
+  font-size: 15px;
+  top: 140px;
+}
+
+.contact-textarea-message {
+  position: absolute;
+  font-size: 15px;
+  left: 0;
+  top: 30px;
+  width: 450%;
+  height: 1000%;
+  resize: both;
+}
+
+.contact-submit {
+  position: absolute;
+  font-size: 15px;
+  top: 470px;
+  cursor: pointer;
+}

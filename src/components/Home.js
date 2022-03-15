@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <>
       <div
-        className="hme-div"
+        className="upArrow-button"
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
       >
         <FontAwesomeIcon icon={faAngleUp} />

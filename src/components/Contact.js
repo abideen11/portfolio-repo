@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "emailjs-com";
+import "../styles/Contact.css";
 
 const Contact = () => {
   const form = useRef();
@@ -21,24 +22,33 @@ const Contact = () => {
         }
       );
   };
+
   return (
-    <div id="to-cnt" className="div-ctc">
+    <div id="to-contact" className="contact-div">
       <h1>Let Connect!</h1>
-      <div className="dv2-ctc-div">
-        <form className="dv2-ctc-form" ref={form} onSubmit={sendEmail}>
-          <label className="ctc-lbl1">
+      <div className="contact-div-inner">
+        <form className="contact-form" ref={form} onSubmit={sendEmail}>
+          <label className="contact-label-name">
             Name
-            <input className="ctc-inp1" name="from_name" placeholder="Name" />
+            <input
+              className="contact-input-name"
+              name="from_name"
+              placeholder="Name"
+            />
           </label>
-          <label className="ctc-lbl2">
+          <label className="contact-label-email">
             Email
-            <input className="ctc-inp2" name="from_email" placeholder="Email" />
+            <input
+              className="contact-input-email"
+              name="from_email"
+              placeholder="Email"
+            />
           </label>
-          <label className="ctc-lbl3">
+          <label className="contact-label-message">
             Message
-            <textarea className="ctc-inp3" name="message" />
+            <textarea className="contact-textarea-message" name="message" />
           </label>
-          <input className="ctc-inp4" type="submit" value="Send" />
+          <input className="contact-submit" type="submit" value="Send" />
         </form>
       </div>
     </div>

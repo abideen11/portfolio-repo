@@ -1,0 +1,63 @@
+.projects-div {
+  font-family: Helvetica, sans-serif;
+}
+
+.projects-title {
+  display: flex;
+  justify-content: center;
+}
+
+.projects-div-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.project-part {
+  width: 430px;
+  height: 560px;
+}
+
+.project-image {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 300px;
+}
+
+.project-image img {
+  width: 80%;
+  height: 80%;
+  overflow: hidden;
+}
+
+.project-part p {
+  text-align: center;
+  padding: 20px;
+}
+
+.project-repository {
+  margin: 0 auto;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.project-link {
+  margin: 0 auto;
+  background: #4ddbff;
+  color: white;
+  border-radius: 5px;
+  width: 120px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
