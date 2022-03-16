@@ -1,8 +1,7 @@
 .intro-div {
   font-family: Helvetica, sans-serif;
   background: #4ddbff;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding: 10px 0 20px 0;
 }
 
 .intro-div-inner {
