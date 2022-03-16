@@ -53,7 +53,7 @@ const Introduction = () => {
         className="intro-connect"
         onClick={() =>
           document
-            .querySelector("#to-cnt")
+            .querySelector("#to-contact")
             .scrollIntoView({ behavior: "smooth" })
         }
       >
