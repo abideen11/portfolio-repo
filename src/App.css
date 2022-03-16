@@ -1,7 +1,7 @@
 .upArrow-button {
   z-index: 100;
   position: fixed;
-  background-color: #4ddbff;
+  background: #4ddbff;
   color: white;
   width: 50px;
   height: 50px;

@@ -1,6 +1,6 @@
 .intro-div {
   font-family: Helvetica, sans-serif;
-  background-color: #4ddbff;
+  background: #4ddbff;
   padding-top: 20px;
   padding-bottom: 10px;
 }
@@ -35,13 +35,12 @@
 
 .intro-connect {
   display: flex;
-  background-color: black;
+  background: black;
   width: 150px;
   height: 40px;
   border-radius: 40px;
   margin: 0 0 20px 100px;
   color: #4ddbff;
-  display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
