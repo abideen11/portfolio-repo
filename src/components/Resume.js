@@ -1,7 +1,6 @@
 import { faFile } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import { Link } from "react-router-dom";
 import "../styles/Resume.css";
 
 import resumeJobsScreenshot from "../images/screenshot_of_resume_jobs_description.png";
@@ -22,14 +21,16 @@ const Resume = () => {
             <img src={resumeJobsScreenshot} alt="screenshot of resume" />
           </div>
           <div className="resume-file">
-            <Link
-              to="/files/Kareem_Software_Engineer_Resume.pdf"
+            <a
+              href="/files/Kareem_Software_Engineer_Resume.pdf"
               target="_blank"
-              style={{ color: "inherit", textDecoration: "none" }}
-              download
             >
-              <FontAwesomeIcon icon={faFile} />
-            </Link>
+              <FontAwesomeIcon
+                icon={faFile}
+                style={{ color: "white", textDecoration: "none" }}
+                download
+              />
+            </a>
           </div>
         </div>
       </div>
