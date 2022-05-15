@@ -7,6 +7,7 @@ import ReactGA from "react-ga";
 
 const TRACKING_ID = "G-KKFWDF1PY1";
 ReactGA.initialize(TRACKING_ID);
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 const App = () => {
   return (
